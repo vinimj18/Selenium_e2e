@@ -8,36 +8,38 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from utilities.base_class import BaseClass
+from page_objects.home_page import HomePage
+from page_objects.checkout_page import CheckoutPage
+from page_objects.confirm_page import ConfirmPage
 
 
 class TestOne(BaseClass):
 
     def test_e2e(self):
+        home_page = HomePage(self.driver)
+        home_page.shop_items().click()
 
-        self.driver.find_element(By.CSS_SELECTOR, " a[href*='shop']").click()
-        cards = self.driver.find_elements(By.CSS_SELECTOR, ".card-title a")
-        i = 0
+        checkout_page = CheckoutPage(self.driver)
+        cards = checkout_page.get_card_titles()
+        i = -1
         for card in cards:
-            i += 1
             card_text = card.text
             print(card_text)
+            i += 1
             if card_text == "Blackberry":
-                self.driver.find_element(
-                    By.XPATH, f"//app-card[{i}]//div[1]//div[2]//button[1]").click()
+                checkout_page.get_card_footer()[i].click()
+        checkout_page.get_checkout_button().click()
+        checkout_page.checkout_items().click()
 
-        self.driver.find_element(
-            By.CSS_SELECTOR, "a[class*='btn-primary']").click()
-        self.driver.find_element(
-            By.XPATH, "//button[@class='btn btn-success']").click()
-        self.driver.find_element(By.ID, "country").send_keys("ind")
+        confirm_page = ConfirmPage(self.driver)
+
+        confirm_page.get_country_dropdown().send_keys("ind")
         wait = WebDriverWait(self.driver, 10)
         wait.until(expected_conditions.presence_of_element_located(
             (By.LINK_TEXT, "India")))
-        self.driver.find_element(By.LINK_TEXT, "India").click()
-        self.driver.find_element(
-            By.XPATH, "//div[@class='checkbox checkbox-primary']").click()
-        self.driver.find_element(By.CSS_SELECTOR, "[type='submit']").click()
-        successText = self.driver.find_element(
-            By.CLASS_NAME, "alert-success").text
+        confirm_page.get_india().click()
+        confirm_page.get_agree_checkbox().click()
+        confirm_page.get_purchase_button().click()
+
+        successText = confirm_page.get_success_message().text
         assert "Success! Thank you!" in successText
-        self.driver.close()
