@@ -1,8 +1,3 @@
-# type: ignore
-
-import pytest
-import time
-
 from utilities.base_class import BaseClass
 from page_objects.home_page import HomePage
 from page_objects.checkout_page import CheckoutPage
@@ -12,10 +7,10 @@ from page_objects.confirm_page import ConfirmPage
 class TestOne(BaseClass):
 
     def test_e2e(self):
-        home_page = HomePage(self.driver)
+        home_page = HomePage(self.driver)  # type: ignore
         home_page.shop_items().click()
 
-        checkout_page = CheckoutPage(self.driver)
+        checkout_page = CheckoutPage(self.driver)  # type: ignore
         cards = checkout_page.get_card_titles()
         i = -1
         for card in cards:
@@ -27,7 +22,7 @@ class TestOne(BaseClass):
         checkout_page.get_checkout_button().click()
         checkout_page.checkout_items().click()
 
-        confirm_page = ConfirmPage(self.driver)
+        confirm_page = ConfirmPage(self.driver)  # type: ignore
 
         confirm_page.get_country_dropdown().send_keys("ind")
         self.verify_link_presence('India')
