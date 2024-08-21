@@ -3,10 +3,6 @@
 import pytest
 import time
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 from utilities.base_class import BaseClass
 from page_objects.home_page import HomePage
 from page_objects.checkout_page import CheckoutPage
@@ -34,9 +30,7 @@ class TestOne(BaseClass):
         confirm_page = ConfirmPage(self.driver)
 
         confirm_page.get_country_dropdown().send_keys("ind")
-        wait = WebDriverWait(self.driver, 10)
-        wait.until(expected_conditions.presence_of_element_located(
-            (By.LINK_TEXT, "India")))
+        self.verify_link_presence('India')
         confirm_page.get_india().click()
         confirm_page.get_agree_checkbox().click()
         confirm_page.get_purchase_button().click()
