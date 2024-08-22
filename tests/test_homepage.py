@@ -9,8 +9,11 @@ class TestHomePage(BaseClass):
 
     def test_form_submission(self, get_data):
 
+        log = self.get_logger()
+
         homepage = HomePage(self.driver)  # type: ignore
 
+        log.info(f'Name is {get_data['name']}')
         homepage.enter_name().send_keys(get_data['name'])
         homepage.enter_email().send_keys(get_data['email'])
         homepage.enter_password().send_keys(get_data['password'])

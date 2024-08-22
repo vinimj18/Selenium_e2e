@@ -1,0 +1,14 @@
+2024-08-22 19:26:50,183 :INFO : test_e2e :Getting all the card titles
+2024-08-22 19:26:50,207 :INFO : test_e2e :iphone X
+2024-08-22 19:26:50,218 :INFO : test_e2e :Samsung Note 8
+2024-08-22 19:26:50,231 :INFO : test_e2e :Nokia Edge
+2024-08-22 19:26:50,242 :INFO : test_e2e :Blackberry
+2024-08-22 19:26:50,447 :INFO : test_e2e :Entering country name as ind
+2024-08-22 19:26:55,768 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-22 19:26:58,967 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-22 19:26:59,827 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-22 19:26:59,827 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-22 19:27:00,643 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:27:00,643 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:27:00,643 :INFO : test_form_submission :Name is Ana Lúcia
