@@ -1,6 +1,5 @@
 from utilities.base_class import BaseClass
 from page_objects.home_page import HomePage
-from selenium.webdriver.support.select import Select
 
 
 class TestHomePage(BaseClass):
@@ -14,10 +13,7 @@ class TestHomePage(BaseClass):
         homepage.enter_password().send_keys("123456")
         homepage.mark_check_box().click()
         homepage.mark_inline_radio1().click()
-
-        dropdown = Select(homepage.select_dropdown())
-        dropdown.select_by_visible_text("Female")
-        dropdown.select_by_index(0)
+        self.select_option_by_text(homepage.select_dropdown(), 'Male')
 
         homepage.submit_button().click()
 
