@@ -2,6 +2,7 @@ import pytest
 
 from utilities.base_class import BaseClass
 from page_objects.home_page import HomePage
+from test_data.homepage_data import HomepageData
 
 
 class TestHomePage(BaseClass):
@@ -10,12 +11,13 @@ class TestHomePage(BaseClass):
 
         homepage = HomePage(self.driver)  # type: ignore
 
-        homepage.enter_name().send_keys(get_data[0])
-        homepage.enter_email().send_keys(get_data[1])
-        homepage.enter_password().send_keys(get_data[2])
+        homepage.enter_name().send_keys(get_data['name'])
+        homepage.enter_email().send_keys(get_data['email'])
+        homepage.enter_password().send_keys(get_data['password'])
         homepage.mark_check_box().click()
         homepage.mark_inline_radio1().click()
-        self.select_option_by_text(homepage.select_dropdown(), get_data[3])
+        self.select_option_by_text(
+            homepage.select_dropdown(), get_data['gender'])
 
         homepage.submit_button().click()
 
@@ -25,10 +27,6 @@ class TestHomePage(BaseClass):
 
         self.driver.refresh()  # type: ignore
 
-    @pytest.fixture(params=[
-        ('Vinicius Justen', 'vinimj.lixo18@gmail.com', '123456', 'Male'),
-        ('Bruna Bárbara', 'bb10@hotmail.com', '135790', 'Female'),
-        ('Ana Lúcia', 'almjhonson@gmail.com', 'a1b2c3d4', 'Female'),
-    ])
+    @pytest.fixture(params=HomepageData.test_homepage_data)
     def get_data(self, request):
         return request.param
