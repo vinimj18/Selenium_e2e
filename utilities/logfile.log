@@ -12,3 +12,31 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2024-08-22 19:27:00,643 :INFO : test_form_submission :Name is Ana Lúcia
 2024-08-22 19:27:00,643 :INFO : test_form_submission :Name is Ana Lúcia
 2024-08-22 19:27:00,643 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:38:42,821 :INFO : test_e2e :Getting all the card titles
+2024-08-22 19:38:42,852 :INFO : test_e2e :iphone X
+2024-08-22 19:38:42,862 :INFO : test_e2e :Samsung Note 8
+2024-08-22 19:38:42,869 :INFO : test_e2e :Nokia Edge
+2024-08-22 19:38:42,874 :INFO : test_e2e :Blackberry
+2024-08-22 19:38:43,051 :INFO : test_e2e :Entering country name as ind
+2024-08-22 19:38:48,386 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-22 19:38:51,688 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-22 19:38:52,515 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-22 19:38:52,515 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-22 19:38:53,361 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:38:53,361 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:38:53,361 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:39:38,054 :INFO : test_e2e :Getting all the card titles
+2024-08-22 19:39:38,087 :INFO : test_e2e :iphone X
+2024-08-22 19:39:38,103 :INFO : test_e2e :Samsung Note 8
+2024-08-22 19:39:38,116 :INFO : test_e2e :Nokia Edge
+2024-08-22 19:39:38,126 :INFO : test_e2e :Blackberry
+2024-08-22 19:39:38,320 :INFO : test_e2e :Entering country name as ind
+2024-08-22 19:39:43,712 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-22 19:39:47,025 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-22 19:39:47,984 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-22 19:39:47,984 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-22 19:39:48,721 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:39:48,721 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-22 19:39:48,721 :INFO : test_form_submission :Name is Ana Lúcia
