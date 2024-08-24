@@ -36,4 +36,4 @@ class TestOne(BaseClass):
 
         successText = confirm_page.get_success_message().text
         log.info(f'Text received from application is {successText}')
-        assert "Success! WROOONG Thank you!" in successText
+        assert "Success! Thank you!" in successText

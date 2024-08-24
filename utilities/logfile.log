@@ -40,3 +40,95 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2024-08-22 19:39:48,721 :INFO : test_form_submission :Name is Ana Lúcia
 2024-08-22 19:39:48,721 :INFO : test_form_submission :Name is Ana Lúcia
 2024-08-22 19:39:48,721 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:50:14,198 :INFO : test_e2e :Getting all the card titles
+2024-08-24 10:50:14,243 :INFO : test_e2e :iphone X
+2024-08-24 10:50:14,255 :INFO : test_e2e :Samsung Note 8
+2024-08-24 10:50:14,272 :INFO : test_e2e :Nokia Edge
+2024-08-24 10:50:14,283 :INFO : test_e2e :Blackberry
+2024-08-24 10:50:14,579 :INFO : test_e2e :Entering country name as ind
+2024-08-24 10:50:20,102 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 10:50:24,513 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-24 10:50:25,772 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 10:50:25,772 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 10:50:26,721 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:50:26,721 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:50:26,721 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:51:31,771 :INFO : test_e2e :Getting all the card titles
+2024-08-24 10:51:31,816 :INFO : test_e2e :iphone X
+2024-08-24 10:51:31,848 :INFO : test_e2e :Samsung Note 8
+2024-08-24 10:51:31,865 :INFO : test_e2e :Nokia Edge
+2024-08-24 10:51:31,889 :INFO : test_e2e :Blackberry
+2024-08-24 10:51:32,243 :INFO : test_e2e :Entering country name as ind
+2024-08-24 10:51:37,719 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 10:51:41,546 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-24 10:51:42,673 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 10:51:42,673 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 10:51:43,750 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:51:43,750 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:51:43,750 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:57:46,969 :INFO : test_e2e :Getting all the card titles
+2024-08-24 10:57:47,013 :INFO : test_e2e :iphone X
+2024-08-24 10:57:47,034 :INFO : test_e2e :Samsung Note 8
+2024-08-24 10:57:47,124 :INFO : test_e2e :Nokia Edge
+2024-08-24 10:57:47,144 :INFO : test_e2e :Blackberry
+2024-08-24 10:57:47,591 :INFO : test_e2e :Entering country name as ind
+2024-08-24 10:57:53,112 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 10:57:57,103 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-24 10:57:58,495 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 10:57:58,495 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 10:57:59,800 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:57:59,800 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 10:57:59,800 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:05:11,993 :INFO : test_e2e :Getting all the card titles
+2024-08-24 11:05:12,041 :INFO : test_e2e :iphone X
+2024-08-24 11:05:12,057 :INFO : test_e2e :Samsung Note 8
+2024-08-24 11:05:12,071 :INFO : test_e2e :Nokia Edge
+2024-08-24 11:05:12,089 :INFO : test_e2e :Blackberry
+2024-08-24 11:05:12,422 :INFO : test_e2e :Entering country name as ind
+2024-08-24 11:05:18,025 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 11:08:03,187 :INFO : test_e2e :Getting all the card titles
+2024-08-24 11:08:03,265 :INFO : test_e2e :iphone X
+2024-08-24 11:08:03,289 :INFO : test_e2e :Samsung Note 8
+2024-08-24 11:08:03,314 :INFO : test_e2e :Nokia Edge
+2024-08-24 11:08:03,337 :INFO : test_e2e :Blackberry
+2024-08-24 11:08:03,914 :INFO : test_e2e :Entering country name as ind
+2024-08-24 11:08:09,471 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 11:08:17,665 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-24 11:08:19,695 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 11:08:19,695 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 11:08:21,051 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:08:21,051 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:08:21,051 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:09:45,861 :INFO : test_e2e :Getting all the card titles
+2024-08-24 11:09:45,908 :INFO : test_e2e :iphone X
+2024-08-24 11:09:45,925 :INFO : test_e2e :Samsung Note 8
+2024-08-24 11:09:45,945 :INFO : test_e2e :Nokia Edge
+2024-08-24 11:09:45,963 :INFO : test_e2e :Blackberry
+2024-08-24 11:09:46,299 :INFO : test_e2e :Entering country name as ind
+2024-08-24 11:09:51,786 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 11:09:54,597 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-24 11:09:56,992 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 11:09:56,992 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 11:09:58,095 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:09:58,095 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:09:58,095 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:28:11,765 :INFO : test_e2e :Getting all the card titles
+2024-08-24 11:28:11,804 :INFO : test_e2e :iphone X
+2024-08-24 11:28:11,812 :INFO : test_e2e :Samsung Note 8
+2024-08-24 11:28:11,821 :INFO : test_e2e :Nokia Edge
+2024-08-24 11:28:11,830 :INFO : test_e2e :Blackberry
+2024-08-24 11:28:12,056 :INFO : test_e2e :Entering country name as ind
+2024-08-24 11:28:17,820 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-08-24 11:28:21,424 :INFO : test_form_submission :Name is Vinicius Justen
+2024-08-24 11:28:22,442 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 11:28:22,442 :INFO : test_form_submission :Name is Bruna Bárbara
+2024-08-24 11:28:23,499 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:28:23,499 :INFO : test_form_submission :Name is Ana Lúcia
+2024-08-24 11:28:23,499 :INFO : test_form_submission :Name is Ana Lúcia
