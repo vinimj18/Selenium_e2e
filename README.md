@@ -45,7 +45,7 @@ Selenium_e2e/
 git clone https://github.com/vinimj18/Selenium_e2e.git
 cd Selenium_e2e
 ```
-2. Create a virtual environment
+### 2. Create a virtual environment
 ```bash
 Copy
 Edit
@@ -53,13 +53,13 @@ python -m venv venv
 source venv/bin/activate  # For Linux/macOS
 venv\Scripts\activate     # For Windows
 ```
-3. Install dependencies
+### 3. Install dependencies
 ```bash
 Copy
 Edit
 pip install -r requirements.txt
 ```
-4. Run the test suite
+### 4. Run the test suite
 ```bash
 Copy
 Edit
